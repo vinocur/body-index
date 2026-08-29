@@ -44,7 +44,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="intro">
           <p className="eyebrow"><span>01</span> BMI CALCULATOR</p>
-          <h1>Know your<br /><em>number.</em></h1>
+          <h1>Dr. Vinocur<br /><em>BMI calculator.</em></h1>
           <p className="lede">A simple starting point for understanding whether your weight is in a healthy range for your height.</p>
           <div className="fact"><span className="fact-number">30</span><p>seconds<br />to your result</p></div>
         </div>

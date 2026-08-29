@@ -14,7 +14,7 @@ main { min-height:100vh; overflow:hidden; }
 .intro::after { content:""; position:absolute; width:320px; height:320px; border:1px solid var(--line); border-radius:50%; left:-180px; bottom:-180px; }
 .eyebrow,.step { margin:0 0 30px; font-size:11px; font-weight:800; letter-spacing:.16em; }
 .eyebrow span { display:inline-grid; place-items:center; width:28px; height:28px; margin-right:10px; color:var(--paper); background:var(--ink); border-radius:50%; }
-h1 { margin:0; font-size:clamp(70px,9.5vw,142px); line-height:.8; letter-spacing:-.075em; font-weight:800; }
+h1 { margin:0; font-size:clamp(62px,7.1vw,108px); line-height:.86; letter-spacing:-.065em; font-weight:800; }
 h1 em { color:var(--orange); font-family:Georgia,serif; font-weight:400; }
 .lede { max-width:470px; margin:48px 0 56px; font-family:Georgia,serif; font-size:clamp(18px,1.6vw,23px); line-height:1.5; }
 .fact { display:flex; align-items:center; gap:16px; }

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Body Index — BMI Calculator",
+  title: "Dr. Vinocur BMI Calculator",
   description: "Calculate your body mass index using metric or imperial measurements.",
   icons: {
     icon: "/favicon.svg",
