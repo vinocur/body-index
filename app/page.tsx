@@ -46,7 +46,13 @@ export default function Home() {
           <p className="eyebrow"><span>01</span> BMI CALCULATOR</p>
           <h1>Dr. Vinocur<br /><em>BMI calculator.</em></h1>
           <p className="lede">A simple starting point for understanding whether your weight is in a healthy range for your height.</p>
-          <div className="fact"><span className="fact-number">30</span><p>seconds<br />to your result</p></div>
+          <div className="profile-row">
+            <figure className="doctor-photo">
+              <img src="/dr-vinocur.jpg" alt="Dr. Vinocur smiling and giving a thumbs-up" />
+              <figcaption>DR. VINOCUR</figcaption>
+            </figure>
+            <div className="fact"><span className="fact-number">30</span><p>seconds<br />to your result</p></div>
+          </div>
         </div>
         <div className="calculator" aria-label="BMI calculator">
           <div className="calc-header"><div><p className="step">YOUR MEASUREMENTS</p><h2>Let’s calculate.</h2></div><span className="spark" aria-hidden="true">✦</span></div>
